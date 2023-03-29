@@ -1,0 +1,52 @@
+:root{
+    --black: #333;
+    --white: #fff;
+}
+
+.dark{
+    --black: #fff;
+    --white: #333;
+}
+
+.Home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    user-select: none;
+    mix-blend-mode: screen;
+}
+
+.dark .Mask{
+    filter: invert(1);
+    mix-blend-mode: multiply;
+}
+
+.Home h2{
+    position: relative;
+    z-index: 3;
+    font-size: 7vw;
+    color: #fff;
+    text-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}

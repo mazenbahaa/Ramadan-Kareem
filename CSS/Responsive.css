@@ -1,0 +1,9 @@
+@media (max-width: 768px){
+    header{
+        padding: 20px;
+    }
+    .Social{
+        right: 20px;
+        bottom: 20px;
+    }
+}

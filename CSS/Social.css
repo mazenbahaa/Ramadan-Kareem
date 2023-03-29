@@ -1,0 +1,28 @@
+:root{
+    --black: #333;
+    --white: #fff;
+}
+
+.dark{
+    --black: #fff;
+    --white: #333;
+}
+
+.Social{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.Social li{
+    list-style: none;
+}
+
+.Social li a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.75em;
+}
